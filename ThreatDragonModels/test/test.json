@@ -4,6 +4,169 @@
   },
   "detail": {
     "contributors": [],
-    "diagrams": []
+    "diagrams": [
+      {
+        "title": "diagram",
+        "thumbnail": "./public/content/images/thumbnail.linddun.jpg",
+        "diagramType": "LINDDUN",
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 21,
+                "y": 92
+              },
+              "angle": 0,
+              "id": "34973040-45c5-4de4-ad6e-a185d434c0d1",
+              "z": 1,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "process 0"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 503,
+                "y": 79
+              },
+              "angle": 0,
+              "id": "dad26ca3-6e2f-46c9-b2e9-4897f6f35d7d",
+              "z": 2,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "store 1"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "34973040-45c5-4de4-ad6e-a185d434c0d1"
+              },
+              "target": {
+                "id": "dad26ca3-6e2f-46c9-b2e9-4897f6f35d7d"
+              },
+              "vertices": [
+                {
+                  "x": 117,
+                  "y": 298
+                },
+                {
+                  "x": 221,
+                  "y": 317
+                },
+                {
+                  "x": 306,
+                  "y": 314
+                },
+                {
+                  "x": 393,
+                  "y": 345
+                },
+                {
+                  "x": 472,
+                  "y": 302
+                },
+                {
+                  "x": 532,
+                  "y": 244
+                },
+                {
+                  "x": 476,
+                  "y": 201
+                }
+              ],
+              "id": "a7971169-2be7-49e0-a9a7-a6b383e24e29",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 2",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 3,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "x": 30,
+                "y": 20
+              },
+              "target": {
+                "x": 550,
+                "y": 407
+              },
+              "vertices": [
+                {
+                  "x": 300,
+                  "y": 153
+                },
+                {
+                  "x": 290,
+                  "y": 266
+                }
+              ],
+              "id": "f65f2481-8ba6-4788-a1b1-68f438e3af19",
+              "z": 4,
+              "attrs": {}
+            }
+          ]
+        },
+        "size": {
+          "height": 590,
+          "width": 790
+        }
+      }
+    ]
   }
 }
